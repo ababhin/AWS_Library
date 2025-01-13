@@ -3,10 +3,12 @@ from .core import (
     stop_instance,
     terminate_instance,
     create_ami_image,
+    deregister_ami,  
     create_s3_bucket,
-    create_lambda_function,
-    create_iam_role,
-    attach_policy_to_role
+    delete_s3_bucket,
+    create_snapshot,
+    delete_snapshot,
+    load_instances
 )
 
 __all__ = [
@@ -14,8 +16,10 @@ __all__ = [
     "stop_instance",
     "terminate_instance",
     "create_ami_image",
+    "deregister_ami",  
     "create_s3_bucket",
-    "create_lambda_function",
-    "create_iam_role",
-    "attach_policy_to_role"
+    "delete_s3_bucket",
+    "create_snapshot",
+    "delete_snapshot",
+    "load_instances"
 ]

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+aws_services/__init__.py
+aws_services/service_manager.py
+aws_services.egg-info/PKG-INFO
+aws_services.egg-info/SOURCES.txt
+aws_services.egg-info/dependency_links.txt
+aws_services.egg-info/requires.txt
+aws_services.egg-info/top_level.txt
+tests/test_ec2_manager.py
